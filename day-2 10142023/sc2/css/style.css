@@ -98,7 +98,12 @@
 
 
 
-
+.list-user{
+    height: 96px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
 
 .user{
     height: 80px;
@@ -107,6 +112,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    display: inline-block;
 }
 
 .user > .status{
